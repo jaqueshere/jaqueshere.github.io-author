@@ -1,0 +1,697 @@
+html {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+	-webkit-font-smoothing: inherit;
+}
+
+.gallery .content {
+	width: 100%;
+}
+
+.owl-carousel .owl-wrapper-outer {
+	/*overflow:hidden;*/
+	position: relative;
+}
+
+.owl-item {
+	width: 25%;
+}
+
+.owl-item .frame {
+	margin: 0 auto;
+}
+
+.owl-theme .owl-controls {
+    display: block;
+    width: 5rem;
+    margin: 0 auto;
+}
+
+.owl-theme .owl-controls .owl-dot {
+    display: inline-block;
+}
+
+.active span {
+	opacity:1 !important;
+}
+
+.owl-theme .owl-controls span {
+    background: none repeat scroll 0 0 #869791;
+    border-radius: 20px;
+    display: inline-block;
+    height: 12px;
+    margin: 5px 7px;
+    opacity: 0.5;
+    width: 12px;
+}
+
+#wrapper {
+  /*Colored backdrop for readability */
+  background-color:   #fff;
+  margin-top:0;
+}
+
+body {
+	margin:0;
+	background-color: #fff;
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.top-nav {
+	width: 100%;
+	height: 8.875rem;
+	padding: 1px 1px 1px 1rem;
+  	background-color: #fff;
+	color: gray;
+	margin:0;
+	border-bottom: 1px solid #333333;
+}
+
+.top-nav > .content {
+	float: right;
+	font-size: 2rem;
+	padding: 0.5em 1em 1px 1em;
+}
+
+#headline{
+  margin: auto;
+}
+
+.card > p {
+	margin: 0;
+	padding: 0.5rem 1rem 1px 0;
+	color: #333333;
+}
+
+#nametag {
+	font-size: 3rem;
+}
+
+#tagline {
+/* original style for about-page had 1.2rem */
+	font-size: 1.5rem;
+}
+
+.menulinks > li {
+	display: inline-block;
+	padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.menulinks > li > a {
+	transition: color 0.25s linear;
+	border: 0px solid;
+	font-size: 1em;
+	font-weight: 500;
+	letter-spacing: 0.03em;
+	text-decoration: none;
+}
+
+.menulinks > .active > a {
+	color: #333333;
+	font-weight: 500;
+}
+
+.menulinks > li > a:hover {
+	color: #333333;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.slide_cap {
+	color:gray;
+	font-size:1rem;
+}
+
+h1 {
+ font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 27px;
+}
+
+#summary {
+  width: 100%;
+  padding: 1em 0 3em 0;
+  font-size: 18px;
+  font-family: "Gentium Basic", Georgia, serif;
+  color: gray;
+  vertical-align: top;
+  background-color: white;
+  margin: 0em;
+  border-bottom: 1px solid #333333;
+}
+
+.introduction-section, 
+.interests-section, .final-thoughts{
+  max-width: 30em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+}
+
+.introduction-section > p,
+.interests-section > p,
+.final-thoughts > p {
+  /*in my browser, font-weight only seems to cause a change when it is increased past 600, at which point the browser seems to use a different font (with pronounced serifs) */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.portfolio-item {
+
+}
+
+.portfolio-item-text {
+	text-align: justify;
+	/*border:1px;
+	border-style: solid;
+	border-color: blue;*/
+	position: relative;
+	left:8%;
+	
+	/*height:100%;
+	bottom:0px;*/
+	clear:all;
+}
+
+.icon-item {
+	/*border-style:solid;
+	border-color:green;*/
+	position: relative;
+
+}
+
+#face {
+  float: right;
+  width: 100%;
+    margin: 0px;
+}
+
+#picframe {
+  float: right;
+  width: 25%;
+  /*Useful for a caption?*/
+  font-size: 30px;
+  color: gray;
+  background-color: #DEEFFF;
+  margin: 1em;
+  vertical-align: top;
+}
+
+.works {
+	position: relative;
+
+}
+
+#icon {
+	width: 6%;
+	/*margin-right:1em;*/
+	border-width: 2px;
+	float: left;	
+	/*border-style: solid;
+	border-color: red;*/
+	position: absolute;
+	bottom:0px;
+}
+
+.introduction {
+	width: 100%;
+	/*min-height: 10rem;*/
+	padding: 1rem 1px 1px 1px;
+	/*background-image: url("https://images.unsplash.com/photo-1431538510849-b719825bf08b?q=80&fm=jpg&s=6fd7a983e3b43e66d2b6062856b9df66");
+  background-position: 0% 60%;
+  background-size: cover;
+  background-align: left;*/
+  	background-color: #fff;
+  	font-family: "Gentium Basic", Georgia, serif;
+  	font-weight: 300;
+  	letter-spacing: 0.05em;
+}
+
+.introduction > .content {
+/*	width: 60%;
+	min-height: 10rem;*/
+	/*color: #fff;*/
+	color: gray;
+	/*padding: 1px 2rem 1px 2rem;
+	margin: 0 auto;*/
+	font-size: 1.25rem;
+	  max-width: 30em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+}
+
+.gallery {
+	padding: 1px;
+	/*background-image: url("https://images.unsplash.com/photo-1431538510849-b719825bf08b?q=80&fm=jpg&s=6fd7a983e3b43e66d2b6062856b9df66");
+  background-position: 0% 80%;
+  background-size: cover;
+  background-align: left;*/
+  	background-color: white;
+  	border-bottom: 1px solid #333333;
+}
+
+.gallery > .content {
+	width: 98%;
+	margin: 0 auto;
+}
+
+.gallery > .content > .slides {
+	margin-left: 0;
+	margin-top:0;
+	padding-left: 0;
+	width: 98%;
+	text-align:center;
+}
+
+.snapshot {
+	width: 25rem;
+	border: solid 1px lightgray;
+}
+
+.slides > li {
+	display: inline-block;
+	padding: 1.5rem;
+	vertical-align: top;
+	margin-left:0;
+}
+
+.slides > li > .frame {
+	/*border: 2px solid #333333;*/
+	padding: 1rem;
+	margin: 0.5rem;
+	width: auto;
+}
+
+a {
+	color: #4c5058;
+	font-weight: 500;
+}
+
+.social {
+	padding-left:0;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.social > li {
+  display: inline-block;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  letter-spacing: -.1em;
+  padding: 0.25rem;
+}
+
+.social > li > a:link{
+  color: gray;
+  transition: color 0.25s linear;
+  text-decoration: none;
+}
+
+
+.social > li > a:hover {
+	color: #333333;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+a:visited{
+  color: gray;
+}
+
+a:selected{
+  color: #1F1F2E;
+}
+
+#links{
+  color: white;
+  font-size: 18px;
+  padding: 1em;
+  max-width: 24em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#links > p{
+  font-family: "Gentium Basic", Georgia, serif;
+}
+
+.notes {
+	max-width: 14rem;
+	margin: 0 auto;
+	text-align:center;
+	/*display: inline-block;*/
+}
+
+.clip-text {
+	width: 50%;
+	color:gray;
+	font-size: 1.25rem;
+	  max-width: 30em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Media queries*/
+
+@media only screen and (max-width: 320px) {
+
+	.introduction > .content {
+		width: 80%;
+	}
+
+	.owl-carousel .owl-item {
+		margin:0;
+	}
+
+	.frame {
+		width: 280px;
+	}
+
+	.frame .snapshot {
+		width: 280px;
+	}
+
+	.gallery > .content {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	footer {
+		width: 100%;
+	}
+
+	footer #links {
+		width: 300px;
+		color: gray;
+	}
+}
+
+@media only screen and (min-width: 360px) {
+	.introduction {
+		font-size: 0.8rem;
+	}
+
+	.owl-item {
+		padding:0;
+	}
+
+	.frame {
+		width: 300px;
+	}
+
+	.frame .snapshot {
+		width: 300px;
+	}
+
+	.gallery > .content {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.gallery > .content > .slides {
+		margin-left: 0;
+		margin-top:0;
+		padding-left: 0;
+		width: 100%;
+		text-align:center;
+	}
+
+	.slides > li {
+		padding: 0;
+	}
+
+	.slides > li > .frame {
+		border: 2px solid #333333;
+		padding: 1rem;
+		margin: 0.5rem;	
+	}
+
+	.snapshot {
+		width: 18rem;
+	}
+
+	footer {
+		width: 100%;
+	}
+
+	footer #links {
+		width: 330px;
+		color: gray;
+	}
+}
+
+@media only screen and (min-width: 400px){
+
+	footer {
+	    height: 16rem;
+	}
+
+	footer > #links {
+		font-size: 1rem;
+	  	padding: 0.25em;
+	  	width: 15rem;
+	  	margin-left: auto;
+	  	margin-right: auto;
+	  	color: gray;
+	}
+
+	.social {
+		padding-left:0;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.social > li {
+	  display: inline-block;
+	  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	  font-weight: bold;
+	  letter-spacing: -.1em;
+	  padding: 0.25rem;
+	}
+	
+	#links {
+	    color: gray;
+	    font-size: 10px;
+	    padding: 1em;
+	    max-width: 24em;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+  #namecard {
+  	width: 100%;
+  	font-family: "Gentium Basic", Georgia, serif;
+  	color:gray;
+  }
+
+  #namecard #desc {
+  	width: 94%;
+  	margin: 0 auto;
+  }
+
+  #namecard #details {
+  	width: 94%;
+  	margin: 0 auto;
+  }
+
+  .slide_cap {
+  	width: 250px;
+  	margin:0 auto;
+  	text-align: left;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+
+	.owl-carousel .owl-item {
+			padding:2rem;
+		}
+	
+	.top-nav {
+		width: 100%;
+		height: 8.875rem;
+		padding: 1px 1px 1px 0.25rem;
+	  	background-color: #fff;
+		color: gray;
+		margin:0;
+	}
+
+	.top-nav > .content {
+		float: right;
+		font-size: 0.75rem;
+		padding: 0.25em 0.5em 1px 0.5em;
+	}
+
+	.card > p {
+		margin: 0;
+		padding: 0.5rem 0.5rem 1px 0;
+	}
+
+	#nametag {
+		font-size: 1rem;
+		margin-top: 1rem;
+		margin-left: 1rem;
+	}
+
+	#tagline {
+	/* original style for about-page had 1.2rem */
+		font-size: 0.75rem;
+		margin-left: 1rem;
+	}
+
+	.menulinks {
+		padding-left:0;
+		padding-right:0;
+	}
+
+	.menulinks > li {
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+	}
+
+/*	#summary {
+	    font-size: 12px;
+	    padding: 1rem 1rem 3em 1rem;
+	}*/
+
+	h1 {
+	    font-size: 18px;
+	}
+	
+	h2 {
+	    font-size: 14px;
+	}
+
+	  .gallery > .content {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.gallery > .content > .slides {
+		margin-left: 0;
+		margin-top:0;
+		padding-left: 0;
+		width: 25%;
+		text-align:center;
+	}
+
+	#namecard {
+	  	width: 100%;
+	  	font-family: "Gentium Basic", Georgia, serif;
+	  	color:gray;
+	}
+
+	#namecard #desc {
+	  	width: 60%;
+	  	margin: 0 auto;
+	}
+
+	#namecard #details {
+	  	width: 40%;
+	  	margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width:980px) {
+	.slides > li > .frame {
+		height:100px;
+	}
+
+	.snapshot {
+		width: 23rem;
+	}	
+}
+
+@media only screen and (min-width: 660px) {
+
+	.owl-carousel .owl-item {
+		padding:2rem;
+	}
+
+	.frame {
+		width: auto;
+	}
+
+	.frame .snapshot {
+		width: auto;
+	}
+	
+	.top-nav {
+		width: 100%;
+		height: 8.875rem;
+		padding: 1px 1px 1px 0.5rem;
+	  	background-color: #fff;
+		color: gray;
+		margin:0;
+	}
+
+	.top-nav > .content {
+		float: right;
+		font-size: 1.5rem;
+		padding: 0.25em 1em 1px 0.5em;
+	}
+
+	.card > p {
+		margin: 0;
+		padding: 0.5rem 1rem 1px 0;
+	}
+
+	#nametag {
+		font-size: 2rem;
+		margin-top: 1rem;
+		margin-left: 1rem;
+	}
+
+	#tagline {
+	/* original style for about-page had 1.2rem */
+		font-size: 1.5rem;
+		margin-left: 1rem;
+	}
+	  #namecard {
+	  	width: 60%;
+	  	margin: 0 auto;
+	  	padding: 3rem 0;
+	  	font-family: "Gentium Basic", Georgia, serif;
+	  	color:gray;
+	  }
+
+	  #namecard #desc {
+	  	display: inline-block;
+	  	width: 40%;
+	  	vertical-align: top;
+	  	padding: 0 3rem;
+	  }
+
+	  #namecard #details {
+	  	display:inline-block;
+	  	width: 40%;
+	  	vertical-align: top;
+	  	padding: 0 3rem;
+	  }
+
+	  	footer {
+			width: 100%;
+			height: 17rem;
+			padding: 1px;
+			padding-bottom: 1rem;
+		  	background-color: white;
+		}
+
+		footer > #links {
+			font-size: 18px;
+		  	padding: 1em;
+		  	width: 38rem;
+		  	margin-left: auto;
+		  	margin-right: auto;
+		  	color: gray;
+		}
+}
